@@ -268,7 +268,7 @@ export function QuestionRenderer({
                     onPaste={preventPaste}
                     aria-invalid={Boolean(showError)}
                     aria-describedby={ariaDescribedBy}
-                    className={`${commonInputClasses} min-h-[140px] resize-vertical`}
+                    className={`${commonInputClasses} min-h-35 resize-vertical`}
                   />
                 ) : question.type === 'select' ? (
                   <select
